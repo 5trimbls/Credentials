@@ -6,7 +6,7 @@ body {
     font-family: sans-serif;
     line-height: 1.5;
     min-height: 100vh;
-    background: #f3f3f3;
+    background-image: url('IMG_2510.jpg');
     flex-direction: column;
     margin: 0;
 }
