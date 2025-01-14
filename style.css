@@ -11,11 +11,20 @@ body {
     margin: 0;
 }
 
+.logo {
+    position: absolute; /* Position the image relative to its container */
+    top: 15px; /* Adjust the distance from the top of the .main div */
+    left: 15px; /* Adjust the distance from the left of the .main div */
+    width: 50px; /* Set the size of the logo (adjust as needed) */
+    height: auto; /* Maintain aspect ratio */
+}
+
 .main {
+    position: relative; /* Ensure the .main container is the positioning context */
     background-color: #002147;
     border-radius: 15px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-    padding: 10px 20px;
+    padding: 40px 20px; /* Add padding to prevent overlap with the logo */
     transition: transform 0.2s;
     width: 500px;
     text-align: center;
